@@ -45,7 +45,7 @@ zwave.aeotec_zw099_smart_dimmer_6:
   unique_id: node-2
 light.aeotec_zw099_smart_dimmer_6_level_2:
   config_entry_id:
-  name:
+  name: "Office Floor Lamp"
   platform: zwave
   unique_id: 2-72057594076299265
 sensor.aeotec_zw099_smart_dimmer_6_previous_reading:
