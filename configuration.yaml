@@ -78,4 +78,4 @@ zwave:
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
-switches: !include switches.yaml
+switch: !include switches.yaml

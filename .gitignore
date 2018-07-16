@@ -3,3 +3,4 @@
 !scenes
 !.gitignore
 secrets.yaml
+backup.sh
