@@ -1,0 +1,55 @@
+switch.wemo_mini:
+  config_entry_id:
+  name:
+  platform: wemo
+  unique_id: 221734K010EC83
+media_player.roku_yy009y182509:
+  config_entry_id:
+  name:
+  platform: roku
+  unique_id: YY009Y182509
+zwave.aeotec_zw090_zstick_gen5_us:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-1
+sensor.aeotec_zw099_smart_dimmer_6_power:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 2-72057594076496002
+light.aeotec_zw099_smart_dimmer_6_level:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 2-144115188114227201
+sensor.aeotec_zw099_smart_dimmer_6_voltage:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 2-72057594076496130
+sensor.aeotec_zw099_smart_dimmer_6_current:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 2-72057594076496194
+sensor.aeotec_zw099_smart_dimmer_6_energy:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 2-72057594076495874
+zwave.aeotec_zw099_smart_dimmer_6:
+  config_entry_id:
+  name: Aeotec ZW099 Smart Dimmer 6
+  platform: zwave
+  unique_id: node-2
+light.aeotec_zw099_smart_dimmer_6_level_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 2-72057594076299265
+sensor.aeotec_zw099_smart_dimmer_6_previous_reading:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 2-72057594076495890
