@@ -1,6 +1,7 @@
 *
 !*.yaml
 !scenes
+!scripts
 !.gitignore
 secrets.yaml
 backup.sh

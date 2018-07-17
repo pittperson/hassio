@@ -1,0 +1,53 @@
+default_view:
+  view: yes
+  entities:
+    - group.master
+    - group.dining
+    - group.anchor
+    - group.hall
+    - group.office
+    - group.garage
+    - group.switches
+
+master:
+  name: "Master Bedroom"
+  entities:
+    - light.chris_light
+    - light.kellys_light
+    - light.master_bedroom_reading_light
+
+dining:
+  name: "Dining Room"
+  entities:
+    - light.hue_white_lamp_1
+    - light.hue_white_lamp_2
+
+anchor:
+  name: "Anchor"
+  entities:
+    - light.anchor_downlight_1
+    - light.anchor_downlight_2
+    - light.anchor_downlight_3
+    - light.anchor_downlight_4
+
+hall:
+ name: "Hallway"
+ entities:
+   - light.hallway_1
+   - light.hallway_2
+   - light.hallway_3
+
+office:
+  name: Office
+  entities:
+    - light.aeotec_zw099_smart_dimmer_6_level_2
+
+garage:
+  name: Garage
+  entities:
+    - switch.wemo_mini
+
+switches:
+  name: Switches
+  entities:
+    - switch.aeotec_zstick_disco_light

@@ -45,7 +45,7 @@ zwave.aeotec_zw099_smart_dimmer_6:
   unique_id: node-2
 light.aeotec_zw099_smart_dimmer_6_level_2:
   config_entry_id:
-  name: "Office Floor Lamp"
+  name: Office Floor Lamp
   platform: zwave
   unique_id: 2-72057594076299265
 sensor.aeotec_zw099_smart_dimmer_6_previous_reading:
@@ -53,3 +53,78 @@ sensor.aeotec_zw099_smart_dimmer_6_previous_reading:
   name:
   platform: zwave
   unique_id: 2-72057594076495890
+light.anchor_downlight_4:
+  config_entry_id: 0f855a92e8c041f2b1cdf70bf70b0c7d
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:76:66:6f-0b
+light.hallway_2:
+  config_entry_id: 0f855a92e8c041f2b1cdf70bf70b0c7d
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:4b:2f:cc-0b
+light.hallway_3:
+  config_entry_id: 0f855a92e8c041f2b1cdf70bf70b0c7d
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:45:5a:bb-0b
+light.kellys_light:
+  config_entry_id: 0f855a92e8c041f2b1cdf70bf70b0c7d
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:75:34:b0-0b
+light.master_bedroom_reading_light:
+  config_entry_id: 0f855a92e8c041f2b1cdf70bf70b0c7d
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:75:53:0a-0b
+light.hallway_1:
+  config_entry_id: 0f855a92e8c041f2b1cdf70bf70b0c7d
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:45:5b:d4-0b
+light.anchor_downlight_1:
+  config_entry_id: 0f855a92e8c041f2b1cdf70bf70b0c7d
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:76:79:f2-0b
+light.hue_white_lamp_1:
+  config_entry_id: 0f855a92e8c041f2b1cdf70bf70b0c7d
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:96:a5:ac-0b
+light.chris_light:
+  config_entry_id: 0f855a92e8c041f2b1cdf70bf70b0c7d
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:7c:c8:aa-0b
+light.hue_white_lamp_2:
+  config_entry_id: 0f855a92e8c041f2b1cdf70bf70b0c7d
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:8c:8d:09-0b
+light.anchor_downlight_2:
+  config_entry_id: 0f855a92e8c041f2b1cdf70bf70b0c7d
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:76:7b:5c-0b
+light.anchor_downlight_3:
+  config_entry_id: 0f855a92e8c041f2b1cdf70bf70b0c7d
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:76:7c:06-0b
+media_player.main:
+  config_entry_id: 77ae90d426574b449e32b3e03f34545d
+  name:
+  platform: sonos
+  unique_id: RINCON_000E58A56BCA01400
+media_player.garage:
+  config_entry_id: 77ae90d426574b449e32b3e03f34545d
+  name:
+  platform: sonos
+  unique_id: RINCON_000E58F8CE1E01400
+media_player.roku_yu000t288532:
+  config_entry_id:
+  name:
+  platform: roku
+  unique_id: YU000T288532
