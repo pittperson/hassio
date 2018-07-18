@@ -1,0 +1,16 @@
+
+Kelly_X:
+  hide_if_away: false
+  icon:
+  mac: 18:F1:D8:DF:A9:C3
+  name: Kelly
+  picture: /local/kelly.png
+  track: true
+
+Chris_S9:
+  hide_if_away: false
+  icon:
+  mac: 44:91:60:A7:57:A8
+  name: Chris
+  picture: /local/chris.png
+  track: true
