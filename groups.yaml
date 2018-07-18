@@ -3,20 +3,29 @@ default_view:
   view: yes
   icon: mdi:home
   entities:
+    - group.devices
+    - group.environment     
     - group.master
     - group.dining
     - group.anchor
     - group.hall
     - group.office
     - group.garage
-    - group.switches
-    - group.devices
+    - group.switches    
 
-trackers:
-  view: no
-  icon: mdi:radar
+television:
+  view: yes
+  icon: mdi:television
   entities:
-    - group.devices
+    - media_player.plex_web_chrome
+    - media_player.roku_yy009y182509
+
+music:
+  view: yes
+  icon: mdi:music
+  entities:
+    - media_player.main
+    - media_player.garage
 
 # GROUPS
 master:
@@ -67,3 +76,9 @@ devices:
   entities:
     - device_tracker.chris_s9
     - device_tracker.kelly_x
+
+environment:
+  name: Environment
+  entities:
+    - sun.sun
+    - sensor.yr_symbol
