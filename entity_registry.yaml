@@ -128,3 +128,8 @@ media_player.roku_yu000t288532:
   name:
   platform: roku
   unique_id: YU000T288532
+media_player.plex_web_chrome:
+  config_entry_id:
+  name:
+  platform: plex
+  unique_id: 41gi7mh9mkd

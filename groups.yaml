@@ -1,5 +1,7 @@
+# VIEWS
 default_view:
   view: yes
+  icon: mdi:home
   entities:
     - group.master
     - group.dining
@@ -8,7 +10,15 @@ default_view:
     - group.office
     - group.garage
     - group.switches
+    - group.devices
 
+trackers:
+  view: no
+  icon: mdi:radar
+  entities:
+    - group.devices
+
+# GROUPS
 master:
   name: "Master Bedroom"
   entities:
@@ -51,3 +61,9 @@ switches:
   name: Switches
   entities:
     - switch.aeotec_zstick_disco_light
+
+devices:
+  name: Devices
+  entities:
+    - device_tracker.chris_s9
+    - device_tracker.kelly_x
