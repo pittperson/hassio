@@ -4,7 +4,8 @@ default_view:
   icon: mdi:home
   entities:
     - group.devices
-    - group.environment     
+    - group.environment
+    - group.greatroom     
     - group.master
     - group.dining
     - group.anchor
@@ -19,6 +20,8 @@ television:
   entities:
     - media_player.plex_web_chrome
     - media_player.roku_yy009y182509
+    - media_player.roku_5s4666004573
+    - media_player.my_lg_google_tv_g3
 
 music:
   view: yes
@@ -26,6 +29,7 @@ music:
   entities:
     - media_player.main
     - media_player.garage
+    - media_player.sony_soundbar
 
 # GROUPS
 master:
@@ -82,3 +86,8 @@ environment:
   entities:
     - sun.sun
     - sensor.yr_symbol
+
+greatroom:
+  name: "Great Room"
+  entities:
+    - light.aeotec_dsc27103_micro_dimmer_2nd_edition_level

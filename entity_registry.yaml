@@ -5,7 +5,7 @@ switch.wemo_mini:
   unique_id: 221734K010EC83
 media_player.roku_yy009y182509:
   config_entry_id:
-  name:
+  name: Movie Room Roku
   platform: roku
   unique_id: YY009Y182509
 zwave.aeotec_zw090_zstick_gen5_us:
@@ -133,3 +133,38 @@ media_player.plex_web_chrome:
   name:
   platform: plex
   unique_id: 41gi7mh9mkd
+media_player.my_lg_google_tv_g3:
+  config_entry_id:
+  name: LG Google TV
+  platform: plex
+  unique_id: ffbcd1f0-ea64-424b-8642-1c6f8882327b
+media_player.roku_5s4666004573:
+  config_entry_id:
+  name: Living Room Roku
+  platform: roku
+  unique_id: 5S4666004573
+media_player.sony_soundbar:
+  config_entry_id:
+  name: Sony Soundbar
+  platform: songpal
+  unique_id: 10:4f:a8:a2:38:9f
+media_player.sony_soundbar_2:
+  config_entry_id: c3651754137c4e3ea02e0f5917e0a25c
+  name:
+  platform: cast
+  unique_id: 7b450594-f367-62e0-330a-8a519d6fcf4d
+media_player.roku_5s466u006469:
+  config_entry_id:
+  name:
+  platform: roku
+  unique_id: 5S466U006469
+zwave.aeotec_dsc27103_micro_dimmer_2nd_edition:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-3
+light.aeotec_dsc27103_micro_dimmer_2nd_edition_level:
+  config_entry_id:
+  name: "Flood Lights"
+  platform: zwave
+  unique_id: 3-72057594093076481
