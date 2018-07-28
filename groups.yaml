@@ -22,6 +22,7 @@ television:
     - media_player.roku_yy009y182509
     - media_player.roku_5s4666004573
     - media_player.my_lg_google_tv_g3
+    - media_player.samsung_8_series_65_un65ks8000
 
 music:
   view: yes
@@ -30,6 +31,11 @@ music:
     - media_player.main
     - media_player.garage
     - media_player.sony_soundbar
+    - media_player.rxa710
+    - media_player.rxa710_zone_2
+    - media_player.vsxlx101
+    - media_player.vsxlx101_zone_2
+    - media_player.vsxlx101_zone_3
 
 # GROUPS
 master:

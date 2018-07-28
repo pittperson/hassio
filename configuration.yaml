@@ -72,6 +72,23 @@ device_tracker:
     home_interval: 10
     exclude: 192.168.1.70
 
+media_player:
+  - platform: onkyo
+    host: 192.168.1.100
+    name: "VSX-LX101"
+
+  - platform: yamaha
+    name: "RX-A710"
+
+nest:
+  client_id: !secret nest_client_id
+  client_secret: !secret nest_client_secret
+
+#google:
+#  client_id: !secret google_client_id
+#  client_secret: !secret google_client_secret
+#  track_new_calendar: true
+
 panel_iframe:
   configurator:
     title: Configurator
@@ -87,4 +104,3 @@ script: !include scripts.yaml
 switch: !include switches.yaml
 light: !include lights.yaml
 hue: !include phue.yaml
-script: !include scripts.yaml

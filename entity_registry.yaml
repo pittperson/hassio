@@ -165,6 +165,16 @@ zwave.aeotec_dsc27103_micro_dimmer_2nd_edition:
   unique_id: node-3
 light.aeotec_dsc27103_micro_dimmer_2nd_edition_level:
   config_entry_id:
-  name: "Flood Lights"
+  name: Flood Lights
   platform: zwave
   unique_id: 3-72057594093076481
+media_player.roku_4__yy009y182509:
+  config_entry_id:
+  name:
+  platform: plex
+  unique_id: 7cfbdfa7903301b89f3f496c0dd40a65
+media_player.chrome:
+  config_entry_id:
+  name:
+  platform: plex
+  unique_id: q5w7m9hsilgz0ew1kops3oyp

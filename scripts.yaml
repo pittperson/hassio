@@ -1,0 +1,17 @@
+master_savanna:
+  sequence:
+    - service: hue.hue_activate_scene
+      data:
+        group_name: "Master"
+        scene_name: "Savanna sunset"
+
+master_concentrate:
+  sequence:
+    - service: hue.hue_activate_scene
+      data:
+        group_name: "Master"
+        scene_name: "Concentrate"
+
+#master_off:
+#  sequence:
+#    - service: hue.
