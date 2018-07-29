@@ -6,14 +6,28 @@
       command_on: 'echo -e -n "\x01\x08\x00\xF2\x51\x01\x01\x05\x01\x50" > /dev/serial/by-id/usb-0658_0200-if00'
       command_off: 'echo -e -n "\x01\x08\x00\xF2\x51\x01\x00\x05\x01\x51" > /dev/serial/by-id/usb-0658_0200-if00'
 
-- platform: template
-  switches:
-    master_savanna_sunset:
-      friendly_name: "Savanna Sunset"
-      turn_on:
-        service: script.master_savanna
+#- platform: template
+#  switches:
+#    master_savanna_sunset:
+#      friendly_name: "Savanna Sunset"
+      #value_template: "{{ is_state('light.chris_light', 'on') }}"
+#      value_template: >-
+#        {% if is_state("light.chris_light", "on") or is_state('light.kellyss_light', 'on') or is_state('light.master_bedroom_reading_light', 'on') %}on{% endif %}
+#      turn_on:
+#        service: script.master_savanna
+#      turn_off:
+#        service: light.turn_off
+#        data:
+#          entity_id: "light.chris_light, light.kellys_light, light.master_bedroom_reading_light"
 
 #- platform: template
 #  switches:
 #    master_concentrate:
 #      friendly_name: "Concentrate"
+#      value_template: "{{ is_state('switch.master_concentrate', 'on') }}"
+#      turn_on:
+#        service: script.master_concentrate
+#      turn_off:
+#        service: light.turn_off
+#        data:
+#          entity_id: "light.chris_light, light.kellys_light, light.master_bedroom_reading_light"            

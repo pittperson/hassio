@@ -37,6 +37,12 @@ music:
     - media_player.vsxlx101_zone_2
     - media_player.vsxlx101_zone_3
 
+alarms:
+  view: yes
+  icon: mdi:alarm
+  entities:
+    - group.wakeuplight_chris
+
 # GROUPS
 master:
   name: "Master Bedroom"
@@ -44,6 +50,9 @@ master:
     - light.chris_light
     - light.kellys_light
     - light.master_bedroom_reading_light
+    - switch.master_savanna_sunset
+    - script.master_concentrate
+    - script.master_savanna
 
 dining:
   name: "Dining Room"
@@ -97,3 +106,16 @@ greatroom:
   name: "Great Room"
   entities:
     - light.aeotec_dsc27103_micro_dimmer_2nd_edition_level
+
+wakeuplight_chris:
+  name: "Chris' Wakeup Light"
+  control: hidden
+  entities:
+    - sensor.wakeup_alarm_time
+    - sensor.wakeup_start_time_lights
+    - sensor.wakeup_fadein_duration
+    - input_number.wakeup_hour
+    - input_number.wakeup_minutes
+    - input_number.wakeup_duration
+    - input_boolean.wakeup
+    - input_boolean.wakeup_weekends

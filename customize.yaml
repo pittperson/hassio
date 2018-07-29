@@ -1,6 +1,16 @@
 light.office_floor_lamp:
   icon: mdi:lamp
+
 light.aeotec_zw099_smart_dimmer_6_level_2: {}
+
 switch.wemo_mini:
   friendly_name: "Center Garage Light"
   entity_picture: /local/wemo_logo_200x200.png
+
+script.master_savanna:
+  friendly_name: "Savanna Sunset"
+  icon: mdi:sunglasses
+
+script.master_concentrate:
+  friendly_name: "Concentrate"
+  icon: mdi:thought-bubble
